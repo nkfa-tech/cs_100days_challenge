@@ -1,0 +1,17 @@
+  857  ls
+  858  history > day11.txt
+  859  ls
+  860  date >> day11.txt
+  861  cat day11.txt
+  862  ls
+  863  cd Desktop/cs_100days_challenge
+  864  ls
+  865  mkdir less_folder
+  866  cd less_folder
+  867  touch less_file1.txt
+  868  cat less_file1.txt
+  869  less less_file1.txt
+  870  less less_file1.txt
+  871  cd ..
+  872  cd command_history
+Fri Nov 21 22:38:17 +07 2025

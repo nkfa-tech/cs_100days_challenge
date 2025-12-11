@@ -1,0 +1,17 @@
+  842  ls
+  843  cd ..
+  844  ls
+  845  cd ..
+  846  cd -
+  847  mkdir mv_dir4/
+  848  cd mv_dir3
+  849  touch mv_dir3_file1.txt mv_dir3_file2.txt
+  850  cd ..
+  851  ls -R
+  852  mv mv_dir3/* mv_dir4
+  853  ls -R
+  854  cd ..
+  855  ls
+  856  cd command_history
+  857  ls
+Thu Nov 20 21:39:07 +07 2025

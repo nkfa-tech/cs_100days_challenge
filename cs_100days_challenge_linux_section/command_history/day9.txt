@@ -1,0 +1,17 @@
+  691  mkdir languages
+  692  ls
+  693  mkdir -p languages/english/chapter1
+  694  ls -R
+  695  ls -R languages
+  696  rmdir languages/english/chapter1
+  697  ls
+  698  ls -R languages
+  699  mkdir languages/english/vocab
+  700  rmdir -p languages/english/vocab
+  701  ls
+  702  mkdir -pv languages/english/vocab
+  703  rmdir -pv languages/english/vocab
+  704  cd ..
+  705  cd command_history
+  706  touch day9.txt
+Tue Nov 18 20:49:12 +07 2025

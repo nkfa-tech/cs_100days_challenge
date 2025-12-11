@@ -1,0 +1,188 @@
+Last login: Wed Nov 19 17:00:55 on ttys000
+nkfa@Nyeins-MacBook-Pro ~ % ls               
+Applications			Pictures
+Applications (Parallels)	Postman
+Calibre Library			Public
+Desktop				SQLQuery_1.sql
+Documents			app-initial-time
+Downloads			blog
+Library				cs_100days_challenge
+Movies				development
+Music				eclipse-workspace
+Parallels			nkfa-tech
+ParallelsLab			remotecontrol-inital-time
+ParallelsLabMacked
+nkfa@Nyeins-MacBook-Pro ~ % cd Desktop/cs_100days_challenge 
+nkfa@Nyeins-MacBook-Pro cs_100days_challenge % ls
+cat_folder	command_history	cs_file.txt	mkdir_folder
+cd_folder	cp_folder	ls_folder	rmdir_folder
+nkfa@Nyeins-MacBook-Pro cs_100days_challenge % mkdir mv_folder
+nkfa@Nyeins-MacBook-Pro cs_100days_challenge % ls
+cat_folder	cp_folder	mkdir_folder
+cd_folder	cs_file.txt	mv_folder
+command_history	ls_folder	rmdir_folder
+nkfa@Nyeins-MacBook-Pro cs_100days_challenge % touch mv_test_file1.txt
+nkfa@Nyeins-MacBook-Pro cs_100days_challenge % cd mv_folder
+nkfa@Nyeins-MacBook-Pro mv_folder % ls
+nkfa@Nyeins-MacBook-Pro mv_folder % ls
+mv_test_file1.txt
+nkfa@Nyeins-MacBook-Pro mv_folder % cat >> mv_test_file1.txt 
+This is the content of mv file1.
+nkfa@Nyeins-MacBook-Pro mv_folder % mv mv_test_file1.txt mv_file1.txt
+nkfa@Nyeins-MacBook-Pro mv_folder % ls
+mv_file1.txt
+nkfa@Nyeins-MacBook-Pro mv_folder % cat mv_file1.txt 
+This is the content of mv file1.
+nkfa@Nyeins-MacBook-Pro mv_folder % mkdir mv_dir
+nkfa@Nyeins-MacBook-Pro mv_folder % ls
+mv_dir		mv_file1.txt
+nkfa@Nyeins-MacBook-Pro mv_folder % mv mv_file1.txt mv_dir/
+nkfa@Nyeins-MacBook-Pro mv_folder % ls
+mv_dir
+nkfa@Nyeins-MacBook-Pro mv_folder % ls mv_dir 
+mv_file1.txt
+nkfa@Nyeins-MacBook-Pro mv_folder % ls -R
+mv_dir
+
+./mv_dir:
+mv_file1.txt
+nkfa@Nyeins-MacBook-Pro mv_folder % cat > mv_file1.txt
+Random Text Lorem Ipsum
+nkfa@Nyeins-MacBook-Pro mv_folder % ls -R
+mv_dir		mv_file1.txt
+
+./mv_dir:
+mv_file1.txt
+nkfa@Nyeins-MacBook-Pro mv_folder % mv mv_file1.txt mv_dir 
+nkfa@Nyeins-MacBook-Pro mv_folder % ls
+mv_dir
+nkfa@Nyeins-MacBook-Pro mv_folder % cat mv_dir/mv_file1.txt 
+Random Text Lorem Ipsum
+nkfa@Nyeins-MacBook-Pro mv_folder % ls -R
+mv_dir
+
+./mv_dir:
+mv_file1.txt
+nkfa@Nyeins-MacBook-Pro mv_folder % date > mv_file1.txt
+nkfa@Nyeins-MacBook-Pro mv_folder % mv -i mv_file1.txt mv_dir 
+overwrite mv_dir/mv_file1.txt? (y/n [n]) n
+not overwritten
+nkfa@Nyeins-MacBook-Pro mv_folder % cat mv_dir/mv_file1.txt  
+Random Text Lorem Ipsum
+nkfa@Nyeins-MacBook-Pro mv_folder % ls
+mv_dir		mv_file1.txt
+nkfa@Nyeins-MacBook-Pro mv_folder % mkdir mv_dir2
+nkfa@Nyeins-MacBook-Pro mv_folder % mv mv_dir/ mv_dir2/
+nkfa@Nyeins-MacBook-Pro mv_folder % ls
+mv_dir2		mv_file1.txt
+nkfa@Nyeins-MacBook-Pro mv_folder % ls -R
+mv_dir2		mv_file1.txt
+
+./mv_dir2:
+mv_dir
+
+./mv_dir2/mv_dir:
+mv_file1.txt
+nkfa@Nyeins-MacBook-Pro mv_folder % mv mv_dir2 mv_dir3/
+nkfa@Nyeins-MacBook-Pro mv_folder % ls
+mv_dir3		mv_file1.txt
+nkfa@Nyeins-MacBook-Pro mv_folder % ls -R
+mv_dir3		mv_file1.txt
+
+./mv_dir3:
+mv_dir
+
+./mv_dir3/mv_dir:
+mv_file1.txt
+nkfa@Nyeins-MacBook-Pro mv_folder % ls
+mv_dir3		mv_file1.txt
+nkfa@Nyeins-MacBook-Pro mv_folder % touch mv_file2.txt mv_file3.txt
+nkfa@Nyeins-MacBook-Pro mv_folder % mv mv_file2.txt mv_file3.txt mv_dir3
+nkfa@Nyeins-MacBook-Pro mv_folder % ls -R
+mv_dir3		mv_file1.txt
+
+./mv_dir3:
+mv_dir		mv_file2.txt	mv_file3.txt
+
+./mv_dir3/mv_dir:
+mv_file1.txt
+nkfa@Nyeins-MacBook-Pro mv_folder % mv mv_file1.txt mv_dir3 
+nkfa@Nyeins-MacBook-Pro mv_folder % ls -R
+mv_dir3
+
+./mv_dir3:
+mv_dir		mv_file1.txt	mv_file2.txt	mv_file3.txt
+
+./mv_dir3/mv_dir:
+mv_file1.txt
+nkfa@Nyeins-MacBook-Pro mv_folder % cd mv_dir3 
+nkfa@Nyeins-MacBook-Pro mv_dir3 % ls
+mv_dir		mv_file1.txt	mv_file2.txt	mv_file3.txt
+nkfa@Nyeins-MacBook-Pro mv_dir3 % mv * .. 
+nkfa@Nyeins-MacBook-Pro mv_dir3 % ls
+nkfa@Nyeins-MacBook-Pro mv_dir3 % cd ..
+nkfa@Nyeins-MacBook-Pro mv_folder % ls
+mv_dir		mv_file1.txt	mv_file3.txt
+mv_dir3		mv_file2.txt
+nkfa@Nyeins-MacBook-Pro mv_folder % cd ..
+nkfa@Nyeins-MacBook-Pro cs_100days_challenge % cd -
+~/Desktop/cs_100days_challenge/mv_folder
+nkfa@Nyeins-MacBook-Pro mv_folder % mkdir mv_dir4/
+nkfa@Nyeins-MacBook-Pro mv_folder % cd mv_dir3  
+nkfa@Nyeins-MacBook-Pro mv_dir3 % touch mv_dir3_file1.txt mv_dir3_file2.txt
+nkfa@Nyeins-MacBook-Pro mv_dir3 % cd ..          
+nkfa@Nyeins-MacBook-Pro mv_folder % ls -R        
+mv_dir		mv_dir4		mv_file2.txt
+mv_dir3		mv_file1.txt	mv_file3.txt
+
+./mv_dir:
+mv_file1.txt
+
+./mv_dir3:
+mv_dir3_file1.txt	mv_dir3_file2.txt
+
+./mv_dir4:
+nkfa@Nyeins-MacBook-Pro mv_folder % mv mv_dir3/* mv_dir4 
+nkfa@Nyeins-MacBook-Pro mv_folder % ls -R
+mv_dir		mv_dir4		mv_file2.txt
+mv_dir3		mv_file1.txt	mv_file3.txt
+
+./mv_dir:
+mv_file1.txt
+
+./mv_dir3:
+
+./mv_dir4:
+mv_dir3_file1.txt	mv_dir3_file2.txt
+nkfa@Nyeins-MacBook-Pro mv_folder % cd ..
+nkfa@Nyeins-MacBook-Pro cs_100days_challenge % ls
+cat_folder	cp_folder	mkdir_folder
+cd_folder	cs_file.txt	mv_folder
+command_history	ls_folder	rmdir_folder
+nkfa@Nyeins-MacBook-Pro cs_100days_challenge % cd command_history 
+nkfa@Nyeins-MacBook-Pro command_history % ls
+day10.txt	day7.txt	day8.txt	day9.txt
+nkfa@Nyeins-MacBook-Pro command_history % history > day11.txt
+nkfa@Nyeins-MacBook-Pro command_history % ls
+day10.txt	day7.txt	day9.txt
+day11.txt	day8.txt
+nkfa@Nyeins-MacBook-Pro command_history % date >> day11.txt
+nkfa@Nyeins-MacBook-Pro command_history % cat day11.txt
+  842  ls
+  843  cd ..
+  844  ls
+  845  cd ..
+  846  cd -
+  847  mkdir mv_dir4/
+  848  cd mv_dir3
+  849  touch mv_dir3_file1.txt mv_dir3_file2.txt
+  850  cd ..
+  851  ls -R
+  852  mv mv_dir3/* mv_dir4
+  853  ls -R
+  854  cd ..
+  855  ls
+  856  cd command_history
+  857  ls
+Thu Nov 20 21:39:07 +07 2025
+nkfa@Nyeins-MacBook-Pro command_history % 

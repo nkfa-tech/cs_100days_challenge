@@ -1,0 +1,17 @@
+  644  ls Linux\ Tutorials
+  645  mkdir Linux\ Tutorials/chapter{3,4,5}
+  646  ls Linux\ Tutorials
+  647  mkdir Linux\ Tutorials/{notes,commands}
+  648  ls Linux\ Tutorials
+  649  mkdir Java\ Tutorials/chapter1
+  650  mkdir -p Java\ Tutorials/chapter1
+  651  ls
+  652  ls Java\ Tutorials
+  653  mkdir -pv React\ Project/{src,components,nodes}
+  654  ls React\ Project
+  655  cd..
+  656  cd ..
+  657  cd command_history
+  658  touch day8.txt
+  659  ls
+Mon Nov 17 22:24:37 +07 2025

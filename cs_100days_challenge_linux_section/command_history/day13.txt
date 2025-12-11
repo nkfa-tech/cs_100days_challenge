@@ -1,0 +1,17 @@
+  900  cat touch_file1.txt
+  901  cd..
+  902  cd ..
+  903  mkdir nano_folder
+  904  nano nano_file1.txt
+  905  nano nano_file1.txt
+  906  cat nano_file1.txt
+  907  mv nano_file1.txt nano_fol/
+  908  mv nano_file1.txt nano_folder
+  909  cd nano_folder
+  910  ls
+  911  nano nano_file1.txt
+  912  cat nano_file1.txt
+  913  cd ..
+  914  cd command_history
+  915  ls
+Sat Nov 22 22:05:38 +07 2025

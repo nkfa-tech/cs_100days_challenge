@@ -1,0 +1,17 @@
+  778  cp cp_file3.txt cp_file4.txt
+  779  cat cp_file4.txt
+  780  cp -i cp_file2.txt cp_file4.txt
+  781  cp -i cp_file2.txt cp_file4.txt
+  782  cat cp_file4.txt
+  783  cp -u cp_dir1/ cup_dir5/
+  784  ls cp_dir1
+  785  ls cp_dir3
+  786  cat > cp_dir1/test_update.txt
+  787  ls cp_dir1
+  788  cd cp_dir1
+  789  cp -u cs_file.txt test_update.txt
+  790  cp -u test_update.txt ../cp_dir3
+  791  cd ..
+  792  cd ..
+  793  cd command_history
+Wed Nov 19 11:29:29 +07 2025

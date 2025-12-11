@@ -1,0 +1,48 @@
+Last login: Sat Nov 22 21:13:39 on ttys000
+nkfa@Nyeins-MacBook-Pro ~ % cd Desktop/cs_100days_challenge 
+nkfa@Nyeins-MacBook-Pro cs_100days_challenge % mkdir touch_folder
+nkfa@Nyeins-MacBook-Pro cs_100days_challenge % cd touch_folder
+nkfa@Nyeins-MacBook-Pro touch_folder % touch touch_file1.txt
+nkfa@Nyeins-MacBook-Pro touch_folder % cat > touch_file1.txt 
+This is the content of text file1
+nkfa@Nyeins-MacBook-Pro touch_folder % ls -lh touch_file1.txt 
+-rw-r--r--  1 nkfa  staff    34B Nov 22 21:42 touch_file1.txt
+nkfa@Nyeins-MacBook-Pro touch_folder % touch touch_file1.txt 
+nkfa@Nyeins-MacBook-Pro touch_folder % ls -lh touch_file1.txt 
+-rw-r--r--  1 nkfa  staff    34B Nov 22 21:43 touch_file1.txt
+nkfa@Nyeins-MacBook-Pro touch_folder % cat touch_file1.txt 
+This is the content of text file1
+nkfa@Nyeins-MacBook-Pro touch_folder % cd..
+zsh: command not found: cd..
+nkfa@Nyeins-MacBook-Pro touch_folder % cd ..
+nkfa@Nyeins-MacBook-Pro cs_100days_challenge % mkdir nano_folder
+nkfa@Nyeins-MacBook-Pro cs_100days_challenge % nano nano_file1.txt
+nkfa@Nyeins-MacBook-Pro cs_100days_challenge % nano nano_file1.txt
+nkfa@Nyeins-MacBook-Pro cs_100days_challenge % cat nano_file1.txt 
+Codewall
+nkfa@Nyeins-MacBook-Pro cs_100days_challenge % mv nano_file1.txt nano_fol/
+mv: rename nano_file1.txt to nano_fol/: No such file or directory
+nkfa@Nyeins-MacBook-Pro cs_100days_challenge % mv nano_file1.txt nano_folder 
+nkfa@Nyeins-MacBook-Pro cs_100days_challenge % cd nano_folder 
+nkfa@Nyeins-MacBook-Pro nano_folder % ls
+nano_file1.txt
+nkfa@Nyeins-MacBook-Pro nano_folder % nano nano_file1.txt          
+
+
+nkfa@Nyeins-MacBook-Pro nano_folder % cat nano_file1.txt 
+Codewall
+Technology
+Web Development
+
+
+
+UIUX Design
+nkfa@Nyeins-MacBook-Pro nano_folder % cd ..
+nkfa@Nyeins-MacBook-Pro cs_100days_challenge % cd command_history 
+nkfa@Nyeins-MacBook-Pro command_history % ls
+D_11Terminal Saved Output.txt	day10.txt			day12.txt			day8.txt
+D_12Terminal Saved Output.txt	day11.txt			day7.txt			day9.txt
+nkfa@Nyeins-MacBook-Pro command_history % history > day13.txt
+nkfa@Nyeins-MacBook-Pro command_history % date >> day13.txt 
+nkfa@Nyeins-MacBook-Pro command_history % less day13.txt 
+nkfa@Nyeins-MacBook-Pro command_history % 

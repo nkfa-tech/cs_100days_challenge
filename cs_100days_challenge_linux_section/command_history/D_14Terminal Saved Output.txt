@@ -1,0 +1,122 @@
+Last login: Sun Nov 23 08:35:30 on console
+nkfa@Nyeins-MacBook-Pro ~ % cd Desktop/cs_100days_challenge 
+nkfa@Nyeins-MacBook-Pro cs_100days_challenge % mkdir vi_vim_folder
+nkfa@Nyeins-MacBook-Pro cs_100days_challenge % cd vi_vim_folder 
+nkfa@Nyeins-MacBook-Pro vi_vim_folder % vi vi_file1.txt
+nkfa@Nyeins-MacBook-Pro vi_vim_folder % cat vi_file1.txt 
+This is the content of vi editor
+how to quit, i don't know 
+
+nkfa@Nyeins-MacBook-Pro vi_vim_folder % vim -v
+nkfa@Nyeins-MacBook-Pro vi_vim_folder % vim vim_file1.txt
+nkfa@Nyeins-MacBook-Pro vi_vim_folder % vim vim_file1.txt 
+nkfa@Nyeins-MacBook-Pro vi_vim_folder % vim vim_file1.txt
+nkfa@Nyeins-MacBook-Pro vi_vim_folder % vim vim_file1.txt
+nkfa@Nyeins-MacBook-Pro vi_vim_folder % vim vim_file1.txt
+nkfa@Nyeins-MacBook-Pro vi_vim_folder % history
+  914  cd command_history
+  915  ls
+  916  history > day13.txt
+  917  date >> day13.txt
+  918  less day13.txt
+  919  cd Desktop/cs_100days_challenge
+  920  mkdir vi_vim_folder
+  921  cd vi_vim_folder
+  922  vi vi_file1.txt
+  923  cat vi_file1.txt
+  924  vim -v
+  925  vim vim_file1.txt
+  926  vim vim_file1.txt
+  927  vim vim_file1.txt
+  928  vim vim_file1.txt
+  929  vim vim_file1.txt
+nkfa@Nyeins-MacBook-Pro vi_vim_folder % !925
+vim vim_file1.txt
+nkfa@Nyeins-MacBook-Pro vi_vim_folder % cat vim_file1.txt 
+This is the content written by vim.
+
+
+Codewall
+nkfa@Nyeins-MacBook-Pro vi_vim_folder % history
+  917  date >> day13.txt
+  918  less day13.txt
+  919  cd Desktop/cs_100days_challenge
+  920  mkdir vi_vim_folder
+  921  cd vi_vim_folder
+  922  vi vi_file1.txt
+  923  cat vi_file1.txt
+  924  vim -v
+  925  vim vim_file1.txt
+  926  vim vim_file1.txt
+  927  vim vim_file1.txt
+  928  vim vim_file1.txt
+  929  vim vim_file1.txt
+  930  history
+  931  vim vim_file1.txt
+  932  cat vim_file1.txt
+nkfa@Nyeins-MacBook-Pro vi_vim_folder % !!
+history
+  918  less day13.txt
+  919  cd Desktop/cs_100days_challenge
+  920  mkdir vi_vim_folder
+  921  cd vi_vim_folder
+  922  vi vi_file1.txt
+  923  cat vi_file1.txt
+  924  vim -v
+  925  vim vim_file1.txt
+  926  vim vim_file1.txt
+  927  vim vim_file1.txt
+  928  vim vim_file1.txt
+  929  vim vim_file1.txt
+  930  history
+  931  vim vim_file1.txt
+  932  cat vim_file1.txt
+  933  history
+nkfa@Nyeins-MacBook-Pro vi_vim_folder % cat vim_file2.txt
+cat: vim_file2.txt: No such file or directory
+nkfa@Nyeins-MacBook-Pro vi_vim_folder % cat > vim_file2.txt
+This is the new content of vim file2
+nkfa@Nyeins-MacBook-Pro vi_vim_folder % cat vim_file2.txt 
+This is the new content of vim file2
+nkfa@Nyeins-MacBook-Pro vi_vim_folder % !!
+cat vim_file2.txt
+This is the new content of vim file2
+nkfa@Nyeins-MacBook-Pro vi_vim_folder % !!
+cat vim_file2.txt
+This is the new content of vim file2
+nkfa@Nyeins-MacBook-Pro vi_vim_folder % man ls
+nkfa@Nyeins-MacBook-Pro vi_vim_folder % whatis ls
+builtin(1), !(1), %(1), .(1), :(1), @(1), [(1), {(1), }(1), alias(1), alloc(1), bg(1), bind(1), bindkey(1), break(1), breaksw(1), builtins(1), case(1), cd(1), chdir(1), command(1), complete(1), continue(1), default(1), dirs(1), do(1), done(1), echo(1), echotc(1), elif(1), else(1), end(1), endif(1), endsw(1), esac(1), eval(1), exec(1), exit(1), export(1), false(1), fc(1), fg(1), filetest(1), fi(1), for(1), foreach(1), getopts(1), glob(1), goto(1), hash(1), hashstat(1), history(1), hup(1), if(1), jobid(1), jobs(1), kill(1), limit(1), local(1), log(1), login(1), logout(1), ls-F(1), nice(1), nohup(1), notify(1), onintr(1), popd(1), printenv(1), printf(1), pushd(1), pwd(1), read(1), readonly(1), rehash(1), repeat(1), return(1), sched(1), set(1), setenv(1), settc(1), setty(1), setvar(1), shift(1), source(1), stop(1), suspend(1), switch(1), telltc(1), test(1), then(1), time(1), times(1), trap(1), true(1), type(1), ulimit(1), umask(1), unalias(1), uncomplete(1), unhash(1), unlimit(1), unset(1), unsetenv(1), until(1), wait(1), where(1), which(1), while(1) - shell built-in commands
+ls(1)                    - list directory contents
+DateTime::Locale::en_LS(3pm) - Locale data examples for the English Lesotho (en-LS) locale
+builtin(1), !(1), %(1), .(1), :(1), @(1), [(1), {(1), }(1), alias(1), alloc(1), bg(1), bind(1), bindkey(1), break(1), breaksw(1), builtins(1), case(1), cd(1), chdir(1), command(1), complete(1), continue(1), default(1), dirs(1), do(1), done(1), echo(1), echotc(1), elif(1), else(1), end(1), endif(1), endsw(1), esac(1), eval(1), exec(1), exit(1), export(1), false(1), fc(1), fg(1), filetest(1), fi(1), for(1), foreach(1), getopts(1), glob(1), goto(1), hash(1), hashstat(1), history(1), hup(1), if(1), jobid(1), jobs(1), kill(1), limit(1), local(1), log(1), login(1), logout(1), ls-F(1), nice(1), nohup(1), notify(1), onintr(1), popd(1), printenv(1), printf(1), pushd(1), pwd(1), read(1), readonly(1), rehash(1), repeat(1), return(1), sched(1), set(1), setenv(1), settc(1), setty(1), setvar(1), shift(1), source(1), stop(1), suspend(1), switch(1), telltc(1), test(1), then(1), time(1), times(1), trap(1), true(1), type(1), ulimit(1), umask(1), unalias(1), uncomplete(1), unhash(1), unlimit(1), unset(1), unsetenv(1), until(1), wait(1), where(1), which(1), while(1) - shell built-in commands
+ls(1)                    - list directory contents
+git-ls-files(1)          - Show information about files in the index and the working tree
+git-ls-remote(1)         - List references in a remote repository
+nkfa@Nyeins-MacBook-Pro vi_vim_folder % whatis rmdir
+rmdir(1)                 - remove directories
+rmdir(1)                 - remove directories
+rmdir(2)                 - remove a directory file
+nkfa@Nyeins-MacBook-Pro vi_vim_folder % cd ..
+nkfa@Nyeins-MacBook-Pro cs_100days_challenge % cd command_history 
+nkfa@Nyeins-MacBook-Pro command_history % history > day14.txt
+nkfa@Nyeins-MacBook-Pro command_history % date >> day14.txt
+nkfa@Nyeins-MacBook-Pro command_history % cat day14.txt 
+  929  vim vim_file1.txt
+  930  history
+  931  vim vim_file1.txt
+  932  cat vim_file1.txt
+  933  history
+  934  history
+  935  cat vim_file2.txt
+  936  cat > vim_file2.txt
+  937  cat vim_file2.txt
+  938  cat vim_file2.txt
+  939  cat vim_file2.txt
+  940  man ls
+  941  whatis ls
+  942  whatis rmdir
+  943  cd ..
+  944  cd command_history
+Sun Nov 23 23:27:33 +07 2025
+nkfa@Nyeins-MacBook-Pro command_history % 

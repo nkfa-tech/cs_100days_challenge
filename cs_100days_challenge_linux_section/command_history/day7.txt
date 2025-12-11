@@ -1,0 +1,17 @@
+  610  cat -s cat_file4.txt
+  611  cat cat_file4.txt
+  612  cat -E cat_file4.txt
+  613  cat -e cat_file4.txt
+  614  touch cat_file_combined.txt
+  615  cat cat_file_combined.txt
+  616  ls
+  617  cat cat_file1.txt cat_file2.txt cat_file4.txt > cat_file_combined.txt
+  618  cat cat_file_combined.txt
+  619  cat_file_combined.txt > cat_file_new.txt
+  620  cat cat_file_combined.txt > cat_file_new.txt
+  621  cat cat_file_new.txt
+  622  cd..
+  623  cd ..
+  624  mkdir command_history
+  625  touch day7.txt
+Sun Nov 16 22:47:14 +07 2025

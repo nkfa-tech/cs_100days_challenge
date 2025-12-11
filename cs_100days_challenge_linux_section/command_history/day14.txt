@@ -1,0 +1,17 @@
+  929  vim vim_file1.txt
+  930  history
+  931  vim vim_file1.txt
+  932  cat vim_file1.txt
+  933  history
+  934  history
+  935  cat vim_file2.txt
+  936  cat > vim_file2.txt
+  937  cat vim_file2.txt
+  938  cat vim_file2.txt
+  939  cat vim_file2.txt
+  940  man ls
+  941  whatis ls
+  942  whatis rmdir
+  943  cd ..
+  944  cd command_history
+Sun Nov 23 23:27:33 +07 2025
